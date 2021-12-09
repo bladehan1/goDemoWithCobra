@@ -1,9 +1,11 @@
 package main
 
-import "myCmdmd"
+import (
+	"github.com/miniblade/goDemoWithCobra/myCmd"
+)
 
 
 
 func main() {
-	myCmdmd.Execute()
+	myCmd.Execute()
 }
